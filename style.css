@@ -6,7 +6,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #222222;
+  background-color: #0071F2;
+  color: black;
 }
 
 .container {
@@ -19,14 +20,14 @@ body {
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #F5FAFFAA;
   width: 100%;
   height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-radius: 2px;
+  border-radius: 0.5rem;
 }
 
 form {
@@ -39,26 +40,38 @@ form {
 
 .app {
   margin-top: 36px;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #F5FAFFAA;
   width: 100%;
   min-height: 40vh;
+  border-radius: 0.5rem;
 }
 
 li {
   list-style: none;
   width: 90%;
   border-radius: 0.5rem;
-  margin: 24px auto;
   line-height: 3rem;
-  background: rgba(255, 255, 255, 0.2);
+  margin-top: 16px;
+  background-color: #F5FAFF;
   padding: 16px;
+  min-height: 48px;
 }
 
-h2 {
+li * {
   display: inline;
 }
 
-.delete {
+.rightSide {
+  float: right;
+}
+
+.leftSide {
+  float: left;
   display: inline;
+}
+
+.time {
+  color: black;
+  font-size: 12px;
+  margin-right: 8px;
 }
